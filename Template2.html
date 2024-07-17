@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+
+
+    .child1{
+        font-size: 30px;
+        font-style:oblique;
+        color: brown;
+    }
+
+    .child2{
+        font-style: italic;
+        font-size: 20px;
+        display: flex;
+        gap: 20px;
+        margin: 8px;
+    }
+
+    h1{
+        font-weight:bolder;
+        font-style:italic;
+    }
+
+    button{
+        background-color:black;
+        color: white;
+        border-radius: 10px;
+    }
+
+    img{
+        height: 250px;
+        width: 450px;
+        border-radius: 20px;
+    }
+
+    .item1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .container2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .full{
+        border: 2px solid black;
+        padding: 20px;
+        height: 50vh;
+        margin: 100px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 80vw;
+        box-shadow: 0px 2px 2px 5px greenyellow;
+    }
+    .item2{
+        flex-direction: row;
+    }
+
+</style>
+<body>
+    <div class="full">
+        <div class="container">
+             <div class="item1">
+                 <div class="child1"> My website </div>
+                 <div class="child2"> 
+                     <div class="child2a" > home </div>
+                     <div class="child2b" > about us</div>
+                     <div class="child2c" > work </div>
+                     <div class="child2d" > info </div>
+                     <div class="child2e" ><button> Get started </button> </div>
+                 </div>
+             </div>
+         </div>
+         <div class="container2">
+             <div class="item2">
+                 <h1> Website Design</h1>
+                 <p> my name revu sandeep iam from sangareddy graudate form MLRITM </p>
+                 <button> BUTTON  </button>
+             </div>
+             <div class="item3">
+                 <img src="https://img.freepik.com/free-vector/cryptocurrency-bitcoin-golden-coin-background_1017-31505.jpg" >
+             </div>
+            </div>
+    </div>
+    
+</body>
+</html>
